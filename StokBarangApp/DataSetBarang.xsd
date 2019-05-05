@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetBarang" targetNamespace="http://tempuri.org/DataSetBarang.xsd" xmlns:mstns="http://tempuri.org/DataSetBarang.xsd" xmlns="http://tempuri.org/DataSetBarang.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetBarang" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetBarang" msprop:Generator_UserDSName="DataSetBarang">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataBarang" msprop:Generator_TableClassName="DataBarangDataTable" msprop:Generator_TableVarName="tableDataBarang" msprop:Generator_TablePropName="DataBarang" msprop:Generator_RowDeletingName="DataBarangRowDeleting" msprop:Generator_RowChangingName="DataBarangRowChanging" msprop:Generator_RowEvHandlerName="DataBarangRowChangeEventHandler" msprop:Generator_RowDeletedName="DataBarangRowDeleted" msprop:Generator_UserTableName="DataBarang" msprop:Generator_RowChangedName="DataBarangRowChanged" msprop:Generator_RowEvArgName="DataBarangRowChangeEvent" msprop:Generator_RowClassName="DataBarangRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+              <xs:element name="nama_produk" msprop:Generator_ColumnVarNameInTable="columnnama_produk" msprop:Generator_ColumnPropNameInRow="nama_produk" msprop:Generator_ColumnPropNameInTable="nama_produkColumn" msprop:Generator_UserColumnName="nama_produk" type="xs:string" minOccurs="0" />
+              <xs:element name="merek_produk" msprop:Generator_ColumnVarNameInTable="columnmerek_produk" msprop:Generator_ColumnPropNameInRow="merek_produk" msprop:Generator_ColumnPropNameInTable="merek_produkColumn" msprop:Generator_UserColumnName="merek_produk" type="xs:string" minOccurs="0" />
+              <xs:element name="harga_beli" msprop:Generator_ColumnVarNameInTable="columnharga_beli" msprop:Generator_ColumnPropNameInRow="harga_beli" msprop:Generator_ColumnPropNameInTable="harga_beliColumn" msprop:Generator_UserColumnName="harga_beli" type="xs:string" minOccurs="0" />
+              <xs:element name="harga_produk" msprop:Generator_ColumnVarNameInTable="columnharga_produk" msprop:Generator_ColumnPropNameInRow="harga_produk" msprop:Generator_ColumnPropNameInTable="harga_produkColumn" msprop:Generator_UserColumnName="harga_produk" type="xs:string" minOccurs="0" />
+              <xs:element name="jumlah_produk" msprop:Generator_ColumnVarNameInTable="columnjumlah_produk" msprop:Generator_ColumnPropNameInRow="jumlah_produk" msprop:Generator_ColumnPropNameInTable="jumlah_produkColumn" msprop:Generator_UserColumnName="jumlah_produk" type="xs:string" minOccurs="0" />
+              <xs:element name="tanggal_beli" msprop:Generator_ColumnVarNameInTable="columntanggal_beli" msprop:Generator_ColumnPropNameInRow="tanggal_beli" msprop:Generator_ColumnPropNameInTable="tanggal_beliColumn" msprop:Generator_UserColumnName="tanggal_beli" type="xs:string" minOccurs="0" />
+              <xs:element name="nama_supplier" msprop:Generator_ColumnVarNameInTable="columnnama_supplier" msprop:Generator_ColumnPropNameInRow="nama_supplier" msprop:Generator_ColumnPropNameInTable="nama_supplierColumn" msprop:Generator_UserColumnName="nama_supplier" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Suppliers" targetNamespace="http://tempuri.org/Suppliers.xsd" xmlns:mstns="http://tempuri.org/Suppliers.xsd" xmlns="http://tempuri.org/Suppliers.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Suppliers" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Suppliers" msprop:Generator_UserDSName="Suppliers">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataSupplier" msprop:Generator_TableClassName="DataSupplierDataTable" msprop:Generator_TableVarName="tableDataSupplier" msprop:Generator_TablePropName="DataSupplier" msprop:Generator_RowDeletingName="DataSupplierRowDeleting" msprop:Generator_RowChangingName="DataSupplierRowChanging" msprop:Generator_RowEvHandlerName="DataSupplierRowChangeEventHandler" msprop:Generator_RowDeletedName="DataSupplierRowDeleted" msprop:Generator_UserTableName="DataSupplier" msprop:Generator_RowChangedName="DataSupplierRowChanged" msprop:Generator_RowEvArgName="DataSupplierRowChangeEvent" msprop:Generator_RowClassName="DataSupplierRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="kode_supplier" msprop:Generator_ColumnVarNameInTable="columnkode_supplier" msprop:Generator_ColumnPropNameInRow="kode_supplier" msprop:Generator_ColumnPropNameInTable="kode_supplierColumn" msprop:Generator_UserColumnName="kode_supplier" type="xs:string" minOccurs="0" />
+              <xs:element name="nama_supplier" msprop:Generator_ColumnVarNameInTable="columnnama_supplier" msprop:Generator_ColumnPropNameInRow="nama_supplier" msprop:Generator_ColumnPropNameInTable="nama_supplierColumn" msprop:Generator_UserColumnName="nama_supplier" type="xs:string" minOccurs="0" />
+              <xs:element name="alamat_supplier" msprop:Generator_ColumnVarNameInTable="columnalamat_supplier" msprop:Generator_ColumnPropNameInRow="alamat_supplier" msprop:Generator_ColumnPropNameInTable="alamat_supplierColumn" msprop:Generator_UserColumnName="alamat_supplier" type="xs:string" minOccurs="0" />
+              <xs:element name="telepon_supplier" msprop:Generator_ColumnVarNameInTable="columntelepon_supplier" msprop:Generator_ColumnPropNameInRow="telepon_supplier" msprop:Generator_ColumnPropNameInTable="telepon_supplierColumn" msprop:Generator_UserColumnName="telepon_supplier" type="xs:string" minOccurs="0" />
+              <xs:element name="email_supplier" msprop:Generator_ColumnVarNameInTable="columnemail_supplier" msprop:Generator_ColumnPropNameInRow="email_supplier" msprop:Generator_ColumnPropNameInTable="email_supplierColumn" msprop:Generator_UserColumnName="email_supplier" type="xs:string" minOccurs="0" />
+              <xs:element name="tanggal_daftar" msprop:Generator_ColumnVarNameInTable="columntanggal_daftar" msprop:Generator_ColumnPropNameInRow="tanggal_daftar" msprop:Generator_ColumnPropNameInTable="tanggal_daftarColumn" msprop:Generator_UserColumnName="tanggal_daftar" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

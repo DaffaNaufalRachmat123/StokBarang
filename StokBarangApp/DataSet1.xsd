@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataJual" msprop:Generator_TableClassName="DataJualDataTable" msprop:Generator_TableVarName="tableDataJual" msprop:Generator_TablePropName="DataJual" msprop:Generator_RowDeletingName="DataJualRowDeleting" msprop:Generator_RowChangingName="DataJualRowChanging" msprop:Generator_RowEvHandlerName="DataJualRowChangeEventHandler" msprop:Generator_RowDeletedName="DataJualRowDeleted" msprop:Generator_UserTableName="DataJual" msprop:Generator_RowChangedName="DataJualRowChanged" msprop:Generator_RowEvArgName="DataJualRowChangeEvent" msprop:Generator_RowClassName="DataJualRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nama_pembeli" msprop:Generator_ColumnVarNameInTable="columnnama_pembeli" msprop:Generator_ColumnPropNameInRow="nama_pembeli" msprop:Generator_ColumnPropNameInTable="nama_pembeliColumn" msprop:Generator_UserColumnName="nama_pembeli" type="xs:string" minOccurs="0" />
+              <xs:element name="nama_produk" msprop:Generator_ColumnVarNameInTable="columnnama_produk" msprop:Generator_ColumnPropNameInRow="nama_produk" msprop:Generator_ColumnPropNameInTable="nama_produkColumn" msprop:Generator_UserColumnName="nama_produk" type="xs:string" minOccurs="0" />
+              <xs:element name="harga_produk" msprop:Generator_ColumnVarNameInTable="columnharga_produk" msprop:Generator_ColumnPropNameInRow="harga_produk" msprop:Generator_ColumnPropNameInTable="harga_produkColumn" msprop:Generator_UserColumnName="harga_produk" type="xs:string" minOccurs="0" />
+              <xs:element name="jumlah_penjualan" msprop:Generator_ColumnVarNameInTable="columnjumlah_penjualan" msprop:Generator_ColumnPropNameInRow="jumlah_penjualan" msprop:Generator_ColumnPropNameInTable="jumlah_penjualanColumn" msprop:Generator_UserColumnName="jumlah_penjualan" type="xs:string" minOccurs="0" />
+              <xs:element name="total_harga" msprop:Generator_ColumnVarNameInTable="columntotal_harga" msprop:Generator_ColumnPropNameInRow="total_harga" msprop:Generator_ColumnPropNameInTable="total_hargaColumn" msprop:Generator_UserColumnName="total_harga" type="xs:string" minOccurs="0" />
+              <xs:element name="penjualan" msprop:Generator_ColumnVarNameInTable="columnpenjualan" msprop:Generator_ColumnPropNameInRow="penjualan" msprop:Generator_ColumnPropNameInTable="penjualanColumn" msprop:Generator_UserColumnName="penjualan" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
